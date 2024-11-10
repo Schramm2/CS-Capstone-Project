@@ -1,0 +1,18 @@
+{
+  "productionMode": false,
+  "eagerServerLoad": false,
+  "npmFolder": "C:\\Users\\Admin\\OneDrive\\Desktop\\University\\3rd Year\\Semester 2\\CSC3003S\\CS Capstone Project\\myadvisor",
+  "node.version": "v20.15.0",
+  "node.download.root": "https://nodejs.org/dist/",
+  "frontendFolder": "C:\\Users\\Admin\\OneDrive\\Desktop\\University\\3rd Year\\Semester 2\\CSC3003S\\CS Capstone Project\\myadvisor\\src\\main\\frontend",
+  "connect.javaSourceFolder": "C:\\Users\\Admin\\OneDrive\\Desktop\\University\\3rd Year\\Semester 2\\CSC3003S\\CS Capstone Project\\myadvisor\\src\\main\\java",
+  "javaResourceFolder": "C:\\Users\\Admin\\OneDrive\\Desktop\\University\\3rd Year\\Semester 2\\CSC3003S\\CS Capstone Project\\myadvisor\\src\\main\\resources",
+  "connect.applicationProperties": "C:\\Users\\Admin\\OneDrive\\Desktop\\University\\3rd Year\\Semester 2\\CSC3003S\\CS Capstone Project\\myadvisor\\src\\main\\resources\\application.properties",
+  "connect.openApiFile": "C:\\Users\\Admin\\OneDrive\\Desktop\\University\\3rd Year\\Semester 2\\CSC3003S\\CS Capstone Project\\myadvisor\\target\\generated-resources\\openapi.json",
+  "project.frontend.generated": "C:\\Users\\Admin\\OneDrive\\Desktop\\University\\3rd Year\\Semester 2\\CSC3003S\\CS Capstone Project\\myadvisor\\src\\main\\frontend\\generated",
+  "pnpm.enable": false,
+  "bun.enable": false,
+  "require.home.node": false,
+  "build.folder": "target",
+  "react.enable": true
+}

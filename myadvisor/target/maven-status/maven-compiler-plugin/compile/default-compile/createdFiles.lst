@@ -1,0 +1,12 @@
+uct\myadvisor\views\students\StudentsView.class
+uct\myadvisor\Application.class
+uct\myadvisor\views\login\LoginView.class
+uct\myadvisor\views\meetings\MeetingsView.class
+uct\myadvisor\services\package-info.class
+uct\myadvisor\views\admins\AdminView$1.class
+uct\myadvisor\data\package-info.class
+uct\myadvisor\services\UserService.class
+uct\myadvisor\views\MainLayout.class
+uct\myadvisor\Application$1.class
+uct\myadvisor\views\advisors\AdvisorsView$1.class
+uct\myadvisor\security\UserDetailsServiceImpl.class

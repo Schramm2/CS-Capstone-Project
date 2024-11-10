@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "C:/Users/Admin/OneDrive/Desktop/University/3rd Year/Semester 2/CSC3003S/CS Capstone Project/myadvisor/src/main/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "C:/Users/Admin/OneDrive/Desktop/University/3rd Year/Semester 2/CSC3003S/CS Capstone Project/myadvisor/src/main/frontend/generated/jar-resources",
+  "staticOutput": "C:/Users/Admin/OneDrive/Desktop/University/3rd Year/Semester 2/CSC3003S/CS Capstone Project/myadvisor/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "C:\\Users\\Admin\\OneDrive\\Desktop\\University\\3rd Year\\Semester 2\\CSC3003S\\CS Capstone Project\\myadvisor\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "C:\\Users\\Admin\\OneDrive\\Desktop\\University\\3rd Year\\Semester 2\\CSC3003S\\CS Capstone Project\\myadvisor\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "C:/Users/Admin/OneDrive/Desktop/University/3rd Year/Semester 2/CSC3003S/CS Capstone Project/myadvisor/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "C:/Users/Admin/OneDrive/Desktop/University/3rd Year/Semester 2/CSC3003S/CS Capstone Project/myadvisor/target/dev-bundle/config",
+  "jarResourcesFolder": "C:/Users/Admin/OneDrive/Desktop/University/3rd Year/Semester 2/CSC3003S/CS Capstone Project/myadvisor/src/main/frontend/generated/jar-resources",
+  "themeName": "my-advisor",
+  "clientServiceWorkerSource": "C:\\Users\\Admin\\OneDrive\\Desktop\\University\\3rd Year\\Semester 2\\CSC3003S\\CS Capstone Project\\myadvisor\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
