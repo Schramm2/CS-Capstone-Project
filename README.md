@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/Schramm2/CS-Capstone-Project/actions/workflows/maven.yml/badge.svg)](https://github.com/Schramm2/CS-Capstone-Project/actions/workflows/maven.yml)
 
-**MyAdvisor** is a role-based academic advising and appointment platform built with **Java**, **Spring Boot**, **Vaadin Flow**, **JPA**, and **MySQL**. It streamline communication, files sharing, graduation planning, and meeting bookings between students, academic advisors, and faculty administrators.
+**MyAdvisor** is a role-based academic advising and appointment platform built with **Java**, **Spring Boot**, **Vaadin Flow**, **JPA**, and **MySQL**. It streamlines communication, file sharing, graduation planning, and meeting bookings between students, academic advisors, and faculty administrators.
 
 > [!NOTE]
 > This repository was created as a final-year Computer Science Capstone Project at the University of Cape Town (UCT) by Matthew Schramm, Josh Birkholtz, and Connor Thompson.
@@ -103,7 +103,7 @@ Once started, open [http://localhost:8080](http://localhost:8080) in your web br
 
 ## 👥 Demo Users
 
-The application automatically seeds a set of dummy test accounts when starting up on an empty database (configured via [data.sql](file:///Users/matthew-schramm-ubundi/Workspace.nosync/Personal/CS-Capstone-Project/myadvisor/src/main/resources/data.sql)). All passwords default to `admin` for testing convenience:
+The application automatically seeds a set of dummy test accounts when starting up on an empty database (configured via [data.sql](myadvisor/src/main/resources/data.sql)). All passwords default to `admin` for testing convenience:
 
 * **Science Faculty:**
   * **Faculty Admin:** `facultysci`
@@ -165,4 +165,13 @@ If I were to rebuild or refactor this system today, I would focus on the followi
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE.md](file:///Users/matthew-schramm-ubundi/Workspace.nosync/Personal/CS-Capstone-Project/myadvisor/LICENSE.md) file for details.
+This project is licensed under the Unlicense - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🏷️ Suggested GitHub Repository Metadata
+
+If you are setting up this repository on GitHub, here are the recommended metadata settings:
+
+- **Description:** `Role-based academic advising and appointment platform built with Spring Boot, Vaadin, JPA, and MySQL.`
+- **Topics:** `spring-boot`, `vaadin`, `java`, `jpa`, `mysql`, `maven`, `student-services`, `capstone-project`

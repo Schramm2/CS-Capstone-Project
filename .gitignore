@@ -4,10 +4,9 @@
 **/target/classes/
 
 # Maven (except wrapper)
-.mvn/
-!.mvn/wrapper/
-!.mvn/wrapper/maven-wrapper.jar
-!.mvn/wrapper/maven-wrapper.properties
+**/.mvn/**/*
+!**/.mvn/wrapper/
+!**/.mvn/wrapper/**/*
 
 # Compiled Java class files
 *.class
