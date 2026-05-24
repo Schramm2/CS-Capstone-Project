@@ -1,0 +1,65 @@
+# Target build directory
+**/target/
+**/target/files/
+**/target/classes/
+
+# Maven (except wrapper)
+.mvn/
+!.mvn/wrapper/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+**/logs/
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Vaadin frontend generated files & node
+**/node_modules/
+**/package-lock.json
+**/pnpm-lock.yaml
+**/pnpm-workspace.yaml
+**/webpack.generated.js
+**/tsconfig.json
+**/types.d.ts
+**/vite.generated.ts
+**/vite.config.ts
+**/.pnpm-debug.log
+myadvisor/src/main/frontend/generated/
+myadvisor/src/main/resources/META-INF/VAADIN/config/flow-build-info.json
+
+# IDE specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+.factorypath
+.vscode/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Local environment/credentials files
+*.local.properties
+.env
+.env.local

@@ -33,22 +33,43 @@ import uct.myadvisor.data.UserRepository;
 public class Application implements AppShellConfigurator {
 
     public static void main(String[] args) {
-    // Setup SSH tunnel
-    try {
-        SshTunnel.setupSshTunnel(
-            "thmcon004",          // SSH user
-            "404Go4mhY",          // SSH password
-            "nightmare.cs.uct.ac.za", // SSH host
-            22,                   // SSH port
-            "localhost",          // Remote host (DB server host)
-            3306,                 // Local port (local port for SSH tunnel)
-            3306                  // Remote port (database port on the remote server)
-        );
-    } catch (Exception e) {
-        e.printStackTrace();
-    }
+        // Setup SSH tunnel if enabled
+        String sshEnabled = System.getenv("SSH_TUNNEL_ENABLED");
+        if ("true".equalsIgnoreCase(sshEnabled)) {
+            try {
+                String sshUser = System.getenv("SSH_USER");
+                String sshPassword = System.getenv("SSH_PASSWORD");
+                String sshHost = System.getenv("SSH_HOST");
+                String sshPortStr = System.getenv("SSH_PORT");
+                int sshPort = (sshPortStr != null && !sshPortStr.isEmpty()) ? Integer.parseInt(sshPortStr) : 22;
+                String remoteHost = System.getenv("SSH_REMOTE_HOST");
+                if (remoteHost == null || remoteHost.isEmpty()) {
+                    remoteHost = "localhost";
+                }
+                String localPortStr = System.getenv("SSH_LOCAL_PORT");
+                int localPort = (localPortStr != null && !localPortStr.isEmpty()) ? Integer.parseInt(localPortStr) : 3306;
+                String remotePortStr = System.getenv("SSH_REMOTE_PORT");
+                int remotePort = (remotePortStr != null && !remotePortStr.isEmpty()) ? Integer.parseInt(remotePortStr) : 3306;
 
-        
+                System.out.println("Initializing SSH Tunnel to " + sshHost + "...");
+                SshTunnel.setupSshTunnel(
+                    sshUser,
+                    sshPassword,
+                    sshHost,
+                    sshPort,
+                    remoteHost,
+                    localPort,
+                    remotePort
+                );
+                System.out.println("SSH Tunnel established successfully.");
+            } catch (Exception e) {
+                System.err.println("Failed to establish SSH Tunnel: " + e.getMessage());
+                e.printStackTrace();
+            }
+        } else {
+            System.out.println("SSH Tunnel disabled (enable by setting SSH_TUNNEL_ENABLED=true).");
+        }
+
         SpringApplication.run(Application.class, args);
     }
 
